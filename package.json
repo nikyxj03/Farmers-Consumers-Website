@@ -1,0 +1,24 @@
+{
+  "name": "farmerconsumer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "mongodb": "^3.3.0-beta2",
+    "mongoose": "^6.0.14",
+    "nodeplotlib": "^0.6.4",
+    "regression": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.js",
+    "start": "node index.js",
+    "heroku-postbuild": "npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "Satyaki",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}
+
